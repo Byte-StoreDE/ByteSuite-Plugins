@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "hardware",
+      "name": "Hardware",
+      "description": "Plugins für Hardware-Integrationen wie Scanner, Drucker und Peripheriegeräte.",
+      "icon": "hardware",
+      "pluginCount": 1
+    },
+    {
+      "id": "integration",
+      "name": "Integrationen",
+      "description": "Plugins zur Anbindung externer Dienste, Shops und Datenquellen.",
+      "icon": "link",
+      "pluginCount": 1
+    },
+    {
+      "id": "reporting",
+      "name": "Berichte & Analysen",
+      "description": "Plugins für erweiterte Berichterstattung, Dashboards und Datenanalysen.",
+      "icon": "chart",
+      "pluginCount": 0
+    },
+    {
+      "id": "communication",
+      "name": "Kommunikation",
+      "description": "Plugins für E-Mail, SMS, Benachrichtigungen und Messaging.",
+      "icon": "mail",
+      "pluginCount": 0
+    },
+    {
+      "id": "accounting",
+      "name": "Buchhaltung",
+      "description": "Plugins für Rechnungen, Buchhaltungsexporte und Finanzberichte.",
+      "icon": "receipt",
+      "pluginCount": 0
+    },
+    {
+      "id": "utility",
+      "name": "Tools & Utilities",
+      "description": "Allgemeine Hilfsplugins, Import/Export-Tools und Wartungsfunktionen.",
+      "icon": "tools",
+      "pluginCount": 0
+    }
+  ]
+}
