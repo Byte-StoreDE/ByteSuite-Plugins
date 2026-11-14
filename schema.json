@@ -1,0 +1,124 @@
+{
+  "schema": {
+    "version": "1.0.0",
+    "description": "Schema-Definition für ByteSuite Plugin Store Manifeste"
+  },
+  "fields": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "description": "Einzigartige Plugin-ID (keine Leerzeichen, klein geschrieben, Bindestriffe erlaubt)"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "description": "Anzeigename des Plugins"
+    },
+    "version": {
+      "type": "string",
+      "required": true,
+      "description": "Semantische Versionsnummer (SemVer: MAJOR.MINOR.PATCH)"
+    },
+    "description": {
+      "type": "string",
+      "required": true,
+      "description": "Kurze Beschreibung des Plugins (max. 200 Zeichen)"
+    },
+    "type": {
+      "type": "string",
+      "required": true,
+      "description": "Plugin-Typ: scanner, product-import, reporting, communication, accounting, utility, custom"
+    },
+    "category": {
+      "type": "string",
+      "required": true,
+      "description": "Kategorie-ID aus categories/index.json"
+    },
+    "author": {
+      "type": "string",
+      "required": true,
+      "description": "Autor oder Organisation"
+    },
+    "license": {
+      "type": "string",
+      "required": true,
+      "description": "Lizenz (z.B. MIT, Apache-2.0, GPL-3.0, proprietary)"
+    },
+    "pricing": {
+      "type": "string",
+      "required": true,
+      "enum": ["free", "paid", "freemium"],
+      "description": "Preismodell des Plugins"
+    },
+    "sourceUrl": {
+      "type": "string",
+      "required": false,
+      "description": "URL zum Quellcode (GitHub Repository)"
+    },
+    "downloadUrl": {
+      "type": "string",
+      "required": true,
+      "description": "Direkter Download-Link zur Plugin-ZIP-Datei"
+    },
+    "changelogUrl": {
+      "type": "string",
+      "required": false,
+      "description": "URL zur CHANGELOG.md"
+    },
+    "documentationUrl": {
+      "type": "string",
+      "required": false,
+      "description": "URL zur Dokumentation"
+    },
+    "tags": {
+      "type": "array",
+      "required": false,
+      "description": "Suchbegriffe für die Plugin-Suche"
+    },
+    "minAppVersion": {
+      "type": "string",
+      "required": true,
+      "description": "Minimale ByteSuite-Version für Kompatibilität"
+    },
+    "dependencies": {
+      "type": "array",
+      "required": false,
+      "description": "Andere Plugins, die als Voraussetzung installiert sein müssen"
+    },
+    "permissions": {
+      "type": "array",
+      "required": false,
+      "description": "Benötigte Berechtigungen (z.B. network, bluetooth, fileSystem)"
+    },
+    "screenshots": {
+      "type": "array",
+      "required": false,
+      "description": "Array von Bild-URLs für den Store"
+    },
+    "ratings": {
+      "type": "object",
+      "required": false,
+      "description": "Bewertungen: { average: number (0-5), count: number }"
+    },
+    "downloads": {
+      "type": "number",
+      "required": false,
+      "description": "Anzahl der Downloads"
+    },
+    "createdAt": {
+      "type": "string",
+      "required": true,
+      "description": "Erstellungsdatum (ISO 8601)"
+    },
+    "updatedAt": {
+      "type": "string",
+      "required": true,
+      "description": "Letztes Update (ISO 8601)"
+    },
+    "versions": {
+      "type": "array",
+      "required": false,
+      "description": "Versionshistorie mit Download-Links und Changelogs"
+    }
+  }
+}
