@@ -36,7 +36,7 @@
       "license": "MIT",
       "pricing": "free",
       "sourceUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/tree/main/plugins/uni-elektro",
-      "downloadUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/releases/download/uni-elektro-1.0.0/uni-elektro-plugin.zip",
+      "downloadUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/releases/download/1.0.0/unielektro-plugin.zip",
       "tags": ["produkte", "import", "Uni-Elektro", "E-Commerce"],
       "minAppVersion": "1.0.0",
       "dependencies": [],
