@@ -17,7 +17,7 @@
       "license": "MIT",
       "pricing": "free",
       "sourceUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/tree/main/plugins/inateck",
-      "downloadUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/releases/download/inateck-1.0.0/inateck-plugin.zip",
+      "downloadUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/releases/download/1.0.0/inateck-plugin.zip",
       "tags": ["scanner", "bluetooth", "hardware", "GANT"],
       "minAppVersion": "1.0.0",
       "dependencies": [],
