@@ -27,7 +27,7 @@
   "versions": [
     {
       "version": "1.0.0",
-      "downloadUrl": "hhttps://github.com/Byte-StoreDE/ByteSuite-Plugins/raw/refs/heads/main/plugins/uni-elektro/1.0.0/unielektro-plugin.zip",
+      "downloadUrl": "https://github.com/Byte-StoreDE/ByteSuite-Plugins/raw/refs/heads/main/plugins/uni-elektro/1.0.0/unielektro-plugin.zip",
       "changelog": "Erste Veröffentlichung des Uni-Elektro Import Plugins.",
       "minAppVersion": "1.0.0",
       "publishedAt": "2024-01-01T00:00:00Z"
